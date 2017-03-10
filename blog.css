@@ -1,0 +1,166 @@
+body {
+            background-color: #f7f7ff;
+            color: #29335C;
+        }
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: #29335C;
+}
+a:hover,
+a:focus {
+    transition: color 0.3s ease;
+    text-decoration: none;
+    color: #E5AE50;
+}
+h3 {
+    font-weight: 100;
+}
+
+/* LAYOUT CSS */
+.pure-img-responsive {
+    max-width: 100%;
+    height: auto;
+}
+
+#layout {
+    padding: 0;
+}
+
+.header {
+    text-align: center;
+    top: auto;
+    margin: 30vh 2em 0;
+    height: 100vh;
+}
+
+.sidebar {
+    background: #509ae5;
+    color: #fff;
+}
+
+.content {
+    padding-left: 10vw;
+    padding-bottom: 0;
+}
+
+.brand-title,
+.brand-tagline {
+    margin: 0;
+}
+.brand-title {
+    text-transform: uppercase;
+}
+.brand-tagline {
+    font-weight: 300;
+    color: rgb(176, 202, 219);
+}
+
+.nav-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.nav-item {
+    display: inline-block;
+    *display: inline;
+    zoom: 1;
+}
+.nav-item a {
+    background: transparent;
+    border: 2px solid rgb(176, 202, 219);
+    color: #fff;
+    margin-top: 1em;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    font-size: 85%;
+}
+.nav-item a:hover,
+.nav-item a:focus {
+    border: 2px solid rgb(61, 146, 201);
+    text-decoration: none;
+}
+
+.content-subhead {
+    text-transform: uppercase;
+    color: #aaa;
+    border-bottom: 1px solid #eee;
+    padding: 0.4em 0;
+    font-size: 80%;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+}
+
+.post {
+    padding-top: 30vh;
+    padding-bottom: 2em;
+    height: 100vh;
+}
+
+.footer {
+    text-align: center;
+    padding: 1em 0;
+}
+.footer a {
+    color: #ccc;
+    font-size: 80%;
+}
+.footer .pure-menu a:hover,
+.footer .pure-menu a:focus {
+    background: none;
+}
+ul {
+    margin: 0;
+}
+
+.profile-pict {
+    border-radius: 50%;
+}
+.title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 4.236vmax;
+    line-height: 1.3em;
+    margin: 0 0 0 0;
+    }
+.message {
+    margin-left: 2em;
+    margin-right: 2em;
+    font-family: 'Inconsolata', monospace;
+    font-size: 2vmax;
+    line-height: 1.2em;
+    text-align: justify;
+}
+.accent {
+    color: #E5AE50;
+}
+.under {
+    text-decoration: underline;;
+}
+@media (min-width: 48em) {
+    .content {
+        padding-left: 30vw;
+        padding-bottom: 0;
+    }
+    .header {
+        margin: 30vh 2em 0;
+        text-align: right;
+    }
+    .message {
+        margin-left: 2em;
+        margin-right: 2em;
+        font-family: 'Inconsolata', monospace;
+        font-size: 2.2vmax;
+        line-height: 1.2em;
+        text-align: justify;
+    }
+    .sidebar {
+        position: fixed;
+        top: 0;
+        bottom: 0;
+    }
+}

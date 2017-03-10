@@ -1,6 +1,6 @@
 body {
             background-color: #f7f7ff;
-            color: #29335C;
+            color: #2E3860;
         }
 * {
     -webkit-box-sizing: border-box;
@@ -10,13 +10,13 @@ body {
 
 a {
     text-decoration: none;
-    color: #29335C;
+    color: #000000;
 }
 a:hover,
 a:focus {
     transition: color 0.3s ease;
     text-decoration: none;
-    color: #E5AE50;
+    color: #80FF0A;
 }
 h3 {
     font-weight: 100;
